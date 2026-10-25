@@ -1,6 +1,6 @@
 import type { SiteTemplate } from '../../types'
 export const kittypawTemplate: SiteTemplate = {
-  id: 'kittypaw', name: 'Kittypaw · 猫咪生活与照顾', localizedNames: { en: 'Kittypaw · Cat care and essentials' },
+  id: 'kittypaw', gitUrl: 'https://github.com/weelume/kittypaw-template', name: 'Kittypaw · 猫咪生活与照顾', localizedNames: { en: 'Kittypaw · Cat care and essentials' },
   sceneId: 'corporate-site', listed: false, tags: ['宠物照顾', '猫咪视频', '互动场景', '双语', 'PC / iPad / H5'],
   summary: '猫咪仰视视频、点击继续散步、旋转光标和逐词弹簧标题，含好物、洗护、健康、手记与联系。',
   accentColor: '#18352e', cover: '/templates/kittypaw/poster.jpg',

@@ -23,6 +23,6 @@ pnpm dev
 
 ## 当前交付限制
 
-浏览器验证受工具限制，尚未完成真实三端截图与逐时刻动效对照。公开Git仓库创建被自动审批拒绝，gitUrl未配置，不能宣称满足正式模板协议或完成远端交付。未发布源码ZIP，未部署，未上架。WSL类型、lint、3项测试、生产构建、30条路由200及未知路由404已通过。真实浏览器布局和动效尚未验收。验收记录见 `.tpl/docs/VERIFICATION.md`。
+浏览器验证受工具限制，尚未完成真实三端截图与逐时刻动效对照。真实源码仓库：https://github.com/weelume/kittypaw-template 。展示截图尚未采集，stage保持scaffold。未发布源码ZIP，未部署，未上架。WSL类型、lint、3项测试、生产构建、30条路由200及未知路由404已通过。真实浏览器布局和动效尚未验收。验收记录见 `.tpl/docs/VERIFICATION.md`。
 
 原参考素材权利与原创部分见 `.tpl/docs/LICENSE.md`，未确认商业再分发权。

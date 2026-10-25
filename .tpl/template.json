@@ -148,5 +148,6 @@
     "file": "docs/LICENSE.md",
     "summary": "原参考设计与素材商业再分发权未核实。",
     "redistributionAllowed": false
-  }
+  },
+  "gitUrl": "https://github.com/weelume/kittypaw-template"
 }

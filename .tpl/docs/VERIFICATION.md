@@ -15,7 +15,7 @@
 
 - 原参考浏览器仅成功读取页面结构。截图超时，电脑操作工具因不能可靠识别Windows当前网址而停止，未绕过该限制。
 - PC1440×1000、iPad834×1180、H5390×844及320px，真实布局、横向溢出、中英文切换、菜单焦点、FAQ、表单、视频实际播放以及逐时刻动效未验收。HTTP成功不能代替这些检查。
-- 公开GitHub仓库创建被自动审批拒绝，未配置gitUrl，不填写虚构地址。正式模板协议不能通过，真实截图缺失，stage保持scaffold。
-- 未推送、未上传源码ZIP、未部署或上架。原参考素材商业再分发许可未核实，listed=false、redistributionAllowed=false。
+- 真实源码仓库已配置：https://github.com/weelume/kittypaw-template 。真实页面截图尚未采集，stage保持scaffold，不能宣称视觉与动效完整验收。
+- Git提交和固定源码包按源码交付流程维护；未部署或上架。原参考素材商业再分发许可未核实，listed=false、redistributionAllowed=false。
 
 复验按MOTION.md逐项触发初始、运行、结束状态，检查视频前5秒循环、点击后完整循环、暂停/恢复、重置、桌面光标、两端菜单及系统减少动态效果。截图必须来自实际页面，不用视频帧冒充。

@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-25T13:46:50.478Z",
-  "sourceCommit": "e9dc8ab325566fd5605243978935f850e87fd7b8",
-  "sourceDigest": "5a63103430af531f9267b7050b87f42b6e36e5e69837cdc071b779f62b3d0082",
+  "checkedAt": "2026-10-25T13:51:19.338Z",
+  "sourceCommit": "d1fb7f8e9902ca1a920f6fecdf1272931a54272a",
+  "sourceDigest": "038c2346f5bee46a6f2430e4198ceedfab4aa600e9422c1dc76c8d84b6856ca7",
   "environment": {
     "platform": "linux",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:46:21.555Z",
-      "finishedAt": "2026-10-25T13:46:24.104Z"
+      "startedAt": "2026-10-25T13:50:54.465Z",
+      "finishedAt": "2026-10-25T13:50:57.322Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:46:24.105Z",
-      "finishedAt": "2026-10-25T13:46:26.927Z"
+      "startedAt": "2026-10-25T13:50:57.322Z",
+      "finishedAt": "2026-10-25T13:51:00.276Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:46:26.927Z",
-      "finishedAt": "2026-10-25T13:46:27.694Z"
+      "startedAt": "2026-10-25T13:51:00.276Z",
+      "finishedAt": "2026-10-25T13:51:01.102Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:46:27.694Z",
-      "finishedAt": "2026-10-25T13:46:49.056Z"
+      "startedAt": "2026-10-25T13:51:01.102Z",
+      "finishedAt": "2026-10-25T13:51:17.969Z"
     }
   ],
   "services": [
@@ -73,7 +73,7 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-25T13:46:50.478Z"
+      "checkedAt": "2026-10-25T13:51:19.338Z"
     }
   ],
   "limitations": [

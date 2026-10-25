@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-25T13:46:50.478Z",
+  "sourceCommit": "e9dc8ab325566fd5605243978935f850e87fd7b8",
+  "sourceDigest": "5a63103430af531f9267b7050b87f42b6e36e5e69837cdc071b779f62b3d0082",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": true
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T13:46:21.555Z",
+      "finishedAt": "2026-10-25T13:46:24.104Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T13:46:24.105Z",
+      "finishedAt": "2026-10-25T13:46:26.927Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T13:46:26.927Z",
+      "finishedAt": "2026-10-25T13:46:27.694Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T13:46:27.694Z",
+      "finishedAt": "2026-10-25T13:46:49.056Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-25T13:46:50.478Z"
+    }
+  ],
+  "limitations": [
+    "本报告只覆盖所列自动命令及HTTP服务检查，不代表完整三端视觉或动效验收。",
+    "浏览器工具因无法可靠识别Windows当前网址而停止；真实页面截图、菜单、表单、视频播放与逐时刻动效对照尚未完成。",
+    "原参考字体和字号按中文排版规范调整；新增页面与产品示意图为原创扩展。",
+    "原设计和素材商业再分发权未核实，listed=false、redistributionAllowed=false。"
+  ]
+}

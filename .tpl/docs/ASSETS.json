@@ -43,6 +43,11 @@
       "file": "src/features/site-templates/catalog/kittypaw/components/Cards.tsx",
       "source": "原创SVG产品示意",
       "rights": "本次原创，不冒充照片"
+    },
+    {
+      "file": ".tpl/assets/*-*.webp",
+      "source": "本模板实际本地页面，由Windows Chrome在固定三端视口采集；仅转WebP、不裁切或缩放",
+      "rights": "页面设计和素材沿用各项原有权利；截图不构成额外商业授权"
     }
   ]
 }

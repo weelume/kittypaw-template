@@ -1,11 +1,96 @@
-import type { SiteTemplate } from '../../types'
+import type { SiteTemplate, TemplateScreenshot } from '../../types'
+const screenshots: [TemplateScreenshot, ...TemplateScreenshot[]] = [
+  {
+    "src": "/templates/kittypaw/screenshots/desktop-home.webp",
+    "alt": "Kittypaw 首页 · desktop 真实网页截图",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/desktop-products.webp",
+    "alt": "Kittypaw 猫咪好物 · desktop 真实网页截图",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/desktop-journal.webp",
+    "alt": "Kittypaw 养猫手记 · desktop 真实网页截图",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/desktop-contact.webp",
+    "alt": "Kittypaw 联系 · desktop 真实网页截图",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/tablet-home.webp",
+    "alt": "Kittypaw 首页 · tablet 真实网页截图",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/tablet-products.webp",
+    "alt": "Kittypaw 猫咪好物 · tablet 真实网页截图",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/tablet-journal.webp",
+    "alt": "Kittypaw 养猫手记 · tablet 真实网页截图",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/tablet-contact.webp",
+    "alt": "Kittypaw 联系 · tablet 真实网页截图",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/mobile-home.webp",
+    "alt": "Kittypaw 首页 · mobile 真实网页截图",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/mobile-products.webp",
+    "alt": "Kittypaw 猫咪好物 · mobile 真实网页截图",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/mobile-journal.webp",
+    "alt": "Kittypaw 养猫手记 · mobile 真实网页截图",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/kittypaw/screenshots/mobile-contact.webp",
+    "alt": "Kittypaw 联系 · mobile 真实网页截图",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  }
+]
 export const kittypawTemplate: SiteTemplate = {
   id: 'kittypaw', gitUrl: 'https://github.com/weelume/kittypaw-template', name: 'Kittypaw · 猫咪生活与照顾', localizedNames: { en: 'Kittypaw · Cat care and essentials' },
   sceneId: 'corporate-site', listed: false, tags: ['宠物照顾', '猫咪视频', '互动场景', '双语', 'PC / iPad / H5'],
   summary: '猫咪仰视视频、点击继续散步、旋转光标和逐词弹簧标题，含好物、洗护、健康、手记与联系。',
-  accentColor: '#18352e', cover: '/templates/kittypaw/poster.jpg',
-  // 浏览器验收尚未完成，明确使用视频海报作为封面，不冒充真实页面截图。
-  screenshots: [{ src: '/templates/kittypaw/poster.jpg', alt: 'Kittypaw 原参考视频帧（非页面截图，页面截图待验收）', device: 'desktop', width: 1280, height: 720 }],
+  accentColor: '#18352e', cover: '/templates/kittypaw/screenshots/desktop-home.webp',
+  screenshots,
   surfaces: [{ id: 'site', name: '宠物照顾官网', platform: 'pc', locales: ['zh', 'en'], pages: [
     { slug: "", title: "首页", localizedTitles: { en: "Home" }, load: () => import('./pages/HomePage') },
     { slug: "about", title: "关于我们", localizedTitles: { en: "About us" }, load: () => import('./pages/AboutPage') },

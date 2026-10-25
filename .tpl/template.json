@@ -3,7 +3,7 @@
   "format": "git-template",
   "formatVersion": "0.2.0",
   "id": "kittypaw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Kittypaw · 猫咪生活与照顾",
   "localizedNames": {
     "en": "Kittypaw · Cat care and essentials"
@@ -23,8 +23,117 @@
     "Framer Motion"
   ],
   "accentColor": "#18352e",
-  "cover": null,
-  "screenshots": [],
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Kittypaw 首页 · desktop 真实网页截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-products.webp",
+      "alt": "Kittypaw 猫咪好物 · desktop 真实网页截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "products"
+    },
+    {
+      "src": "assets/desktop-journal.webp",
+      "alt": "Kittypaw 养猫手记 · desktop 真实网页截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "journal"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Kittypaw 联系 · desktop 真实网页截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Kittypaw 首页 · tablet 真实网页截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-products.webp",
+      "alt": "Kittypaw 猫咪好物 · tablet 真实网页截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "products"
+    },
+    {
+      "src": "assets/tablet-journal.webp",
+      "alt": "Kittypaw 养猫手记 · tablet 真实网页截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "journal"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Kittypaw 联系 · tablet 真实网页截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Kittypaw 首页 · mobile 真实网页截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-products.webp",
+      "alt": "Kittypaw 猫咪好物 · mobile 真实网页截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "products"
+    },
+    {
+      "src": "assets/mobile-journal.webp",
+      "alt": "Kittypaw 养猫手记 · mobile 真实网页截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "journal"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Kittypaw 联系 · mobile 真实网页截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
   "surfaces": [
     {
       "id": "site",

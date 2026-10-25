@@ -21,8 +21,8 @@ pnpm dev
 
 `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build`。内容与品牌入口见 `.tpl/customization.json`，架构和修改细节见 `.tpl/docs/`。运行素材在 public/templates/kittypaw，展示截图应在 .tpl/assets。
 
-## 当前交付限制
+## 截图与验收范围
 
-浏览器验证受工具限制，尚未完成真实三端截图与逐时刻动效对照。真实源码仓库：https://github.com/weelume/kittypaw-template 。展示截图尚未采集，stage保持scaffold。未发布源码ZIP，未部署，未上架。WSL类型、lint、3项测试、生产构建、30条路由200及未知路由404已通过。真实浏览器布局和动效尚未验收。验收记录见 `.tpl/docs/VERIFICATION.md`。
+1.0.1已将视频帧占位改为真实网页截图：Windows Chrome隔离无头进程采集PC1440×1000、iPad834×1180、H5390×844，覆盖首页、好物、手记和联系共12张。等字体加载和入场动画结束后原尺寸截图；截图范围无横向溢出、损坏图片或页面脚本异常。截图位于.tpl/assets，由共享包生成至运行截图路径。
 
-原参考素材权利与原创部分见 `.tpl/docs/LICENSE.md`，未确认商业再分发权。
+真实源码仓库：https://github.com/weelume/kittypaw-template 。模板资料已具备真实截图，stage=ready。完整交互与动效逐时刻对照仍未完成，不能宣称完整复刻验收。详细命令与边界见.tpl/docs/VERIFICATION.md。原参考素材商业再分发权仍待核实，未部署或上架。

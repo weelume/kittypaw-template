@@ -1,0 +1,221 @@
+{
+  "browser": "Windows Google Chrome, isolated headless contexts",
+  "results": [
+    {
+      "name": "desktop-home",
+      "url": "http://localhost:43640/",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:28.263Z"
+    },
+    {
+      "name": "desktop-products",
+      "url": "http://localhost:43640/products",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:28.955Z"
+    },
+    {
+      "name": "desktop-journal",
+      "url": "http://localhost:43640/journal",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:29.646Z"
+    },
+    {
+      "name": "desktop-contact",
+      "url": "http://localhost:43640/contact",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "layout": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:30.302Z"
+    },
+    {
+      "name": "tablet-home",
+      "url": "http://localhost:43640/",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "layout": {
+        "viewport": {
+          "width": 834,
+          "height": 1180
+        },
+        "scrollWidth": 834,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:33.927Z"
+    },
+    {
+      "name": "tablet-products",
+      "url": "http://localhost:43640/products",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "layout": {
+        "viewport": {
+          "width": 834,
+          "height": 1180
+        },
+        "scrollWidth": 834,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:34.684Z"
+    },
+    {
+      "name": "tablet-journal",
+      "url": "http://localhost:43640/journal",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "layout": {
+        "viewport": {
+          "width": 834,
+          "height": 1180
+        },
+        "scrollWidth": 834,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:35.366Z"
+    },
+    {
+      "name": "tablet-contact",
+      "url": "http://localhost:43640/contact",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "layout": {
+        "viewport": {
+          "width": 834,
+          "height": 1180
+        },
+        "scrollWidth": 834,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:36.028Z"
+    },
+    {
+      "name": "mobile-home",
+      "url": "http://localhost:43640/",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:39.418Z"
+    },
+    {
+      "name": "mobile-products",
+      "url": "http://localhost:43640/products",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:40.053Z"
+    },
+    {
+      "name": "mobile-journal",
+      "url": "http://localhost:43640/journal",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:40.711Z"
+    },
+    {
+      "name": "mobile-contact",
+      "url": "http://localhost:43640/contact",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "fontStatus": "loaded"
+      },
+      "errors": [],
+      "checkedAt": "2026-10-25T14:30:41.335Z"
+    }
+  ]
+}

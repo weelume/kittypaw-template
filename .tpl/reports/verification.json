@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-25T13:51:19.338Z",
-  "sourceCommit": "d1fb7f8e9902ca1a920f6fecdf1272931a54272a",
-  "sourceDigest": "038c2346f5bee46a6f2430e4198ceedfab4aa600e9422c1dc76c8d84b6856ca7",
+  "checkedAt": "2026-10-25T14:36:13.280Z",
+  "sourceCommit": "d79228ab91d4b48ac56d2456e027766d116581de",
+  "sourceDigest": "79064ba5c8b6de56d8effd3355c1ba3eb0e2cb291490d70c4ef698e0ae7ae0a6",
   "environment": {
     "platform": "linux",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:50:54.465Z",
-      "finishedAt": "2026-10-25T13:50:57.322Z"
+      "startedAt": "2026-10-25T14:35:50.802Z",
+      "finishedAt": "2026-10-25T14:35:52.456Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:50:57.322Z",
-      "finishedAt": "2026-10-25T13:51:00.276Z"
+      "startedAt": "2026-10-25T14:35:52.457Z",
+      "finishedAt": "2026-10-25T14:35:54.786Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:51:00.276Z",
-      "finishedAt": "2026-10-25T13:51:01.102Z"
+      "startedAt": "2026-10-25T14:35:54.786Z",
+      "finishedAt": "2026-10-25T14:35:55.564Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T13:51:01.102Z",
-      "finishedAt": "2026-10-25T13:51:17.969Z"
+      "startedAt": "2026-10-25T14:35:55.564Z",
+      "finishedAt": "2026-10-25T14:36:12.024Z"
     }
   ],
   "services": [
@@ -73,12 +73,12 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-25T13:51:19.338Z"
+      "checkedAt": "2026-10-25T14:36:13.280Z"
     }
   ],
   "limitations": [
-    "本报告只覆盖所列自动命令及HTTP服务检查，不代表完整三端视觉或动效验收。",
-    "浏览器工具因无法可靠识别Windows当前网址而停止；真实页面截图、菜单、表单、视频播放与逐时刻动效对照尚未完成。",
+    "本报告只覆盖所列自动命令及HTTP服务检查，不代表完整三端交互或动效验收。",
+    "1.0.1已使用已有Windows Chrome采集三端四页12张真实截图，固定视口无横向溢出、损坏可视图片或脚本异常；菜单、表单、语言及完整视频/逐时刻动效对照尚未完成。",
     "原参考字体和字号按中文排版规范调整；新增页面与产品示意图为原创扩展。",
     "原设计和素材商业再分发权未核实，listed=false、redistributionAllowed=false。"
   ]

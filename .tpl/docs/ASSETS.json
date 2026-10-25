@@ -1,0 +1,48 @@
+{
+  "reference": "https://jiro.build/components/header/pet-care-header-section-kittypaw",
+  "assets": [
+    {
+      "file": "public/templates/kittypaw/scene.mp4",
+      "source": "https://cdn.jiro.build/KittyPaw/All%20Images/section%20bg.mp4",
+      "rights": "未核实商业再分发",
+      "durationSeconds": 10.005,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "public/templates/kittypaw/poster.jpg",
+      "source": "scene.mp4 第2秒帧，非页面截图",
+      "rights": "同原视频"
+    },
+    {
+      "file": "public/templates/kittypaw/logo.svg",
+      "source": "https://cdn.jiro.build/KittyPaw/All%20SVG/logo%20with%20name.svg",
+      "rights": "未核实商业再分发"
+    },
+    {
+      "file": "public/templates/kittypaw/avatar-1.png",
+      "source": "https://cdn.jiro.build/KittyPaw/All%20Images/avater%201.png",
+      "rights": "未核实商业再分发"
+    },
+    {
+      "file": "public/templates/kittypaw/avatar-2.png",
+      "source": "https://cdn.jiro.build/KittyPaw/All%20Images/avater%202.png",
+      "rights": "未核实商业再分发"
+    },
+    {
+      "file": "public/templates/kittypaw/avatar-3.png",
+      "source": "https://cdn.jiro.build/KittyPaw/All%20Images/avater%203.png",
+      "rights": "未核实商业再分发"
+    },
+    {
+      "file": "public/templates/kittypaw/fonts",
+      "source": "MiSans 官方发布字体分片；Poppins 项目",
+      "rights": "见字体README与Poppins-OFL.txt"
+    },
+    {
+      "file": "src/features/site-templates/catalog/kittypaw/components/Cards.tsx",
+      "source": "原创SVG产品示意",
+      "rights": "本次原创，不冒充照片"
+    }
+  ]
+}

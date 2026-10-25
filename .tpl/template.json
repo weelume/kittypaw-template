@@ -1,0 +1,152 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "kittypaw",
+  "version": "1.0.0",
+  "name": "Kittypaw · 猫咪生活与照顾",
+  "localizedNames": {
+    "en": "Kittypaw · Cat care and essentials"
+  },
+  "summary": "猫咪动态视频与互动场景组成的双语宠物照顾网站，含15页。",
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "宠物",
+    "动态视频",
+    "双语"
+  ],
+  "stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Framer Motion"
+  ],
+  "accentColor": "#18352e",
+  "cover": null,
+  "screenshots": [],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "宠物照顾官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于我们",
+          "localizedTitles": {
+            "en": "About us"
+          }
+        },
+        {
+          "slug": "products",
+          "title": "猫咪好物",
+          "localizedTitles": {
+            "en": "Cat essentials"
+          }
+        },
+        {
+          "slug": "products/window-perch",
+          "title": "阳光窗边躺椅",
+          "localizedTitles": {
+            "en": "Sunny window perch"
+          }
+        },
+        {
+          "slug": "products/play-kit",
+          "title": "好奇心玩耍组合",
+          "localizedTitles": {
+            "en": "Curious play kit"
+          }
+        },
+        {
+          "slug": "products/daily-bowl",
+          "title": "日常陶瓷食碗",
+          "localizedTitles": {
+            "en": "Everyday ceramic bowl"
+          }
+        },
+        {
+          "slug": "grooming",
+          "title": "温柔洗护",
+          "localizedTitles": {
+            "en": "Cat grooming"
+          }
+        },
+        {
+          "slug": "wellness",
+          "title": "日常健康",
+          "localizedTitles": {
+            "en": "Wellness"
+          }
+        },
+        {
+          "slug": "vet-programs",
+          "title": "兽医关怀",
+          "localizedTitles": {
+            "en": "Vet programs"
+          }
+        },
+        {
+          "slug": "journal",
+          "title": "养猫手记",
+          "localizedTitles": {
+            "en": "Cat journal"
+          }
+        },
+        {
+          "slug": "journal/a-window-of-their-own",
+          "title": "给猫咪一扇自己的窗",
+          "localizedTitles": {
+            "en": "A window of their own"
+          }
+        },
+        {
+          "slug": "journal/ten-minutes-of-play",
+          "title": "认真陪它玩",
+          "localizedTitles": {
+            "en": "Ten minutes of play"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact us"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy policy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "使用条款",
+          "localizedTitles": {
+            "en": "Terms of use"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "原参考设计与素材商业再分发权未核实。",
+    "redistributionAllowed": false
+  }
+}

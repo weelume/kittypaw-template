@@ -27,3 +27,23 @@ test('video media and both font weights are delivered locally',async()=>{
  assert.match(source,/loop=\{continued\}/)
  for(const path of ['scene.mp4','poster.jpg','fonts/misans/MiSans-Regular.css','fonts/misans/MiSans-Bold.css','fonts/poppins-latin-400.woff2','fonts/poppins-latin-600.woff2','fonts/poppins-latin-700.woff2'])await access(resolve(root,'public/templates/kittypaw',path))
 })
+
+test('catalog screenshots are delivered page captures, with video poster kept separate', async () => {
+ const metadata=JSON.parse(await read('.tpl/template.json'))
+ assert.equal(metadata.cover,'assets/desktop-home.webp')
+ assert.equal(metadata.screenshots.length,12)
+ assert.equal(new Set(metadata.screenshots.map(shot=>shot.device+'/'+shot.pageSlug)).size,12)
+ for(const shot of metadata.screenshots){
+  assert.ok(['desktop','tablet','mobile'].includes(shot.device))
+  assert.ok(['','products','journal','contact'].includes(shot.pageSlug))
+  const expected={desktop:[1440,1000],tablet:[834,1180],mobile:[390,844]}[shot.device]
+  assert.deepEqual([shot.width,shot.height],expected)
+  assert.match(shot.src,/^assets\/[a-z-]+\.webp$/)
+  const bytes=await readFile(resolve(root,'.tpl',shot.src))
+  assert.equal(bytes.subarray(0,4).toString(),'RIFF')
+  assert.equal(bytes.subarray(8,12).toString(),'WEBP')
+ }
+ const source=await read(catalog+'meta.ts')
+ assert.doesNotMatch(source,/cover:\s*['"][^'"]*poster/)
+ assert.doesNotMatch(source,/src:\s*['"][^'"]*poster/)
+})
